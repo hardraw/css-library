@@ -1,0 +1,48 @@
+
+/* SETTINGS */
+
+//Layout
+$width-container: 1280px;
+$horizontal-spacing-container: 2rem;
+$vertical-spacing-container: 0;
+
+
+//Colors
+$primary: #0096ab;
+$secondary: #0056a1;
+$black: #000000;
+$white: #ffffff;
+$info: #00d8c0;
+$warning: #ffd368;
+$danger: #f80000;
+
+
+//Palette map
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "black": $black,
+    "white": $white,
+    "info": $info,
+    "warning":  $warning,
+    "error": $danger,
+);
+
+// Breakpoints
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+) !default;
+
+// Viewports
+$viewports: (
+  sm: 510px,
+  md: 700px,
+  lg: 920px,
+  xl: 1130px
+) !default;
+
+
